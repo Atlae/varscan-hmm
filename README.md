@@ -37,7 +37,7 @@ A Hidden Markov Model (HMM) is a statistical model that represents systems with 
 
 HMMs are particularly useful in sequence analysis because they can handle variability and uncertainty in the observed data by leveraging the probabilistic nature of state transitions and emissions.
 
-#What is the Viterbi Algorithm?#
+# What is the Viterbi Algorithm?
 
 The Viterbi algorithm is a dynamic programming algorithm used to find the most likely sequence of hidden states while given a sequence of observed events. The algorithm proceeds in the following steps:
 
@@ -47,7 +47,7 @@ The Viterbi algorithm is a dynamic programming algorithm used to find the most l
 
 In the context of HMMs for SNP calling, the Viterbi algorithm helps in determining the most likely sequence of genotypes that could have produced the observed sequence of nucleotides.
 
-*Application of HMMs in Tang et al. (2019)#
+# Application of HMMs in Tang et al. (2019)
 
 In the paper by Tang et al., HMMs are used to identify sequence variants (SNPs and potentially indels) in short-read sequencing data. Here's a small breakdown of how HMMs are used in their research:
 
@@ -66,7 +66,7 @@ In the paper by Tang et al., HMMs are used to identify sequence variants (SNPs a
 5. ***Comparative Performance Analysis***
    - In their study, the performance of the HMM-based variant caller (vi-HMM) was compared to other tools. They used the Viterbi algorithm to decode the most likely sequence of hidden states (genotypes) and evaluated the accuracy, sensitivity, and computational efficiency of their method relative to existing variant callers.
 
-#Resources and Animations#
+# Resources and Animations
 
 Here are some resources that may help to explain/demonstrate how HMMs and the Viterbi algorithm work:
 
