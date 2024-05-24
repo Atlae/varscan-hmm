@@ -30,6 +30,7 @@ Tang, M., Hasan, M., Zhu, H. et al. vi-HMM: a novel HMM-based method for sequenc
 TODO:
 
 - Explain what a HMM is
+  - Explain what the Viterbi Algorithm is
 - Explain what HMMs are used for in this paper
 - if you can find animations that'd be great
 
@@ -40,6 +41,8 @@ TODO:
 ### Installation
 
 ### Usage
+
+You need a mpileup file
 
 ### File Formats
 
