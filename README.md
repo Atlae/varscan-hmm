@@ -87,12 +87,26 @@ Here are some resources that may help to explain/demonstrate how HMMs and the Vi
 
 ### Requirements
 
+Currently no requirements to run `src/varscan_hmm/viterbi.py` which is our main contribution at this point in time, except that one needs Python 3 (versions 3.5+ should be compatible).
+
 ### Installation
+
+One may clone this repository (by using `git clone https://github.com/Atlae/varscan-hmm.git`, GitHub Desktop, or other methods), or spin up a GitHub Codespace to avoid installing anything locally.
 
 ### Usage
 
-You need a mpileup file
+To run and test `src/varscan_hmm/viterbi.py`, navigate to the root directory in the terminal and run
+
+```bash
+/varscan-hmm> python ./src/varscan_hmm/viterbi.py
+```
+
+which should print out `AAAAABABCAAAAAACCCCAABAAAAAAABAAAAAAAAABAAAAAACCCCCCCCCCAABAAACCCCCCCCCCCABCAAAAABCCAABCAABCCCCCCCCA`, which one can verify is the most probable outcome of the example test case we provided.
 
 ### File Formats
 
+At this point, no custom file formats are used.
+
 ## Why should I run it? (Benchmarking Analysis)
+
+TBD
